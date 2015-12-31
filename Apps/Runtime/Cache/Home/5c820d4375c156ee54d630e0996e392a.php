@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>111</title>
-<link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo ($skinpath); ?>kin/css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap.css">
 <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap-combined.min.css">
@@ -10,7 +10,6 @@
 <script src="<?php echo ($skinpath); ?>skin/js/bootstrap.min.js"></script>
 </head>
 <body>
-    {require_once "$skinpath.'skin/inc/header.html" }
 <div id="LG" class="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">			

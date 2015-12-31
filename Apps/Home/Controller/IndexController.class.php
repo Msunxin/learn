@@ -6,6 +6,6 @@ class IndexController extends BaseController {
         $this->assign('skinpath',$this->skinpath);
     }
     public function index(){       
-        $this->display('skin/index');
+        $this->display('skin:index');
     }
 }
