@@ -14,3 +14,4 @@ if(is_dir("Install") && !file_exists("Install/install.ok")){
 }
 include('./ThinkPHP/ThinkPHP.php');
 
+
