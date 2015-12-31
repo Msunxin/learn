@@ -8,7 +8,7 @@
 <script src="<?php echo ($skinpath); ?>skin/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="header">
+    <div class="header" style="padding-bottom:1cm">
 				<ul class="nav nav-pills pull-right">
 					<li class="active ">
 						<a href="#">主页</a>
@@ -20,8 +20,8 @@
 						<a href="#">联系我们</a>
 					</li>
 				</ul>
-				<h3 class="text-muted">
-					这是只是测试
+				<h3 class="text-muted" style='text-indent: 5%'>
+					只是测试
 				</h3>
 </div>
 <div id="LG" class="container-fluid">

@@ -8,4 +8,7 @@ class IndexController extends BaseController {
     public function index(){       
         $this->display('skin:index');
     }
+    public function se(){
+        echo 11;
+    }
 }
