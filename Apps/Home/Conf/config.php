@@ -10,8 +10,8 @@ return array(
     'DB_PWD' => 'root', // 密码
     'DB_PORT' => '3306', // 端口
     'DB_PREFIX' => '', // 数据库表前缀
-    //smarty 定界符
     
+    //smarty 定界符   
     'TMPL_L_DELIM' => '<!--{', // 模板引擎普通标签开始标记
     'TMPL_R_DELIM' => '}-->', // 模板引擎普通标签结束标记
     
@@ -23,4 +23,5 @@ return array(
     'SHOW_USE_MEM' => true, // 显示内存开销
     'SHOW_LOAD_FILE' => true, // 显示加载文件数
     'SHOW_FUN_TIMES' => true, // 显示函数调用次数
+     
 );

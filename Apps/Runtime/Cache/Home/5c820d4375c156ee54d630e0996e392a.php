@@ -1,15 +1,29 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-<title>111</title>
-<link rel="stylesheet" href="<?php echo ($skinpath); ?>kin/css/bootstrap.min.css">
+<title>首页</title>
 <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap.css">
 <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap-combined.min.css">
 <script src="<?php echo ($skinpath); ?>skin/js/jquery.min.js"></script>
 <script src="<?php echo ($skinpath); ?>skin/js/bootstrap.min.js"></script>
 </head>
 <body>
+<div class="header">
+				<ul class="nav nav-pills pull-right">
+					<li class="active ">
+						<a href="#">主页</a>
+					</li>
+					<li>
+						<a href="#">关于</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+				</ul>
+				<h3 class="text-muted">
+					这是只是测试
+				</h3>
+</div>
 <div id="LG" class="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">			
@@ -69,6 +83,15 @@
 		</div>
 	</div>
 	
+</div>
+<div class="row-fluid">
+		<div class="span12">
+			<blockquote class="pull-right">
+				<p>
+					github是一个全球化的开源社区.
+				</p> <small>关键词 <cite>开源</cite></small>
+			</blockquote>
+		</div>
 </div>
 </body>
 </html>
