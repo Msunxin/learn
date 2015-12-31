@@ -6,11 +6,29 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
+        <title>login</title>
+        <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap.css">
+<link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap-theme.min.css">
+<script src="<?php echo ($skinpath); ?>skin/js/jquery.min.js"></script>
+<script src="<?php echo ($skinpath); ?>skin/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="header" style="padding-bottom:1cm">
+				<ul class="nav nav-pills pull-right">
+					<li class="active ">
+						<a href="#">主页</a>
+					</li>
+					<li>
+						<a href="#">关于</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+				</ul>
+				<h3 class="text-muted" style='text-indent: 5%'>
+					只是测试
+				</h3>
+</div>
         <div class="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">
