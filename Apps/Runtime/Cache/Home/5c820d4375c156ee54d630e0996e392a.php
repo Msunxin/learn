@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap.css">
 <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap-theme.min.css">
 <script src="<?php echo ($skinpath); ?>skin/js/jquery.min.js"></script>
+<script src="<?php echo ($skinpath); ?>skin/js/layer/layer.js"></script>
 <script src="<?php echo ($skinpath); ?>skin/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -35,7 +36,7 @@
 					这是一个可视化布局模板, 你可以点击模板里的文字进行修改, 也可以通过点击弹出的编辑框进行富文本修改. 拖动区块能实现排序.
 				</p>
 				<p>
-					<a class="btn btn-lg btn-success" href="#" role="button">登陆</a>
+					<a class="btn btn-lg btn-success" href="javascript:;" role="button">登陆</a>
 				</p>
 			</div>
 			<div class="row marketing">
@@ -84,6 +85,17 @@
 	</div>
 	
 </div>
+<div class='hidden'>
+    <div class="span6 action-login">
+        <form class="form-inline" style="text-align: center" method='post'> 
+                    <fieldset>
+                              <label>账号：</label><input type="text" name='uid' /><br/>
+                              <label>密码：</label><input type="password" name="psw" /><br/>
+                              <button type="submit" class="btn">提交</button>
+                    </fieldset>
+            </form>
+    </div>
+</div>
 <div class="row-fluid">
 		<div class="span12">
 			<blockquote class="pull-right">
@@ -93,5 +105,24 @@
 			</blockquote>
 		</div>
 </div>
+<script>
+    $(function(){
+        $('.btn-success').click(function(){
+           //自定页
+            layer.open({
+                area: ['600px', '300px'],
+                type: 1,
+                skin: 'layui-layer-demo', //样式类名
+                closeBtn: 0, //不显示关闭按钮
+                shift: 2,
+                shadeClose: true, //开启遮罩关闭
+                content: $('.action-login').html()
+            });
+           $.post('./index/login',{id:1},function(data){
+               alert(data);
+           });
+        });
+    })
+</script>
 </body>
 </html>

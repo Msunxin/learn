@@ -8,7 +8,7 @@ class IndexController extends BaseController {
         $this->assign('skinpath',$this->skinpath);
         $this->display('skin:index');
     }
-    public function se(){
+    public function login(){
         echo 11;
     }
 }
