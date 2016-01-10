@@ -1,0 +1,1090 @@
+[ 2016-01-09T15:28:08+08:00 ] 127.0.0.1 /learn/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002564s ]
+
+[ 2016-01-09T15:40:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+
+[ 2016-01-09T15:41:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002853s ]
+
+[ 2016-01-09T15:41:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+
+[ 2016-01-09T15:57:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002115s ]
+
+[ 2016-01-09T15:57:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001913s ]
+
+[ 2016-01-09T15:58:06+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+
+[ 2016-01-09T15:59:57+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002126s ]
+
+[ 2016-01-09T16:00:25+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001678s ]
+
+[ 2016-01-09T16:00:36+08:00 ] 127.0.0.1 /index.php?index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000291s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002986s ]
+
+[ 2016-01-09T16:00:43+08:00 ] 127.0.0.1 /index.php?login\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+
+[ 2016-01-09T16:00:46+08:00 ] 127.0.0.1 /index.php?login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001703s ]
+
+[ 2016-01-09T16:01:03+08:00 ] 127.0.0.1 /index.php?login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+
+[ 2016-01-09T16:01:06+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002050s ]
+
+[ 2016-01-09T16:02:48+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002262s ]
+
+[ 2016-01-09T16:03:12+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002249s ]
+
+[ 2016-01-09T16:07:05+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001660s ]
+
+[ 2016-01-09T16:07:09+08:00 ] 127.0.0.1 /index.php/home/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000387s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002560s ]
+ERR: 模板不存在:./Apps/Home/View/skin/login.html
+
+[ 2016-01-09T16:07:20+08:00 ] 127.0.0.1 /index.php/home/index/login%5C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001647s ]
+
+[ 2016-01-09T16:07:23+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001907s ]
+
+[ 2016-01-09T16:07:37+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001615s ]
+
+[ 2016-01-09T16:08:35+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001855s ]
+
+[ 2016-01-09T16:09:00+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001969s ]
+
+[ 2016-01-09T16:09:39+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+
+[ 2016-01-09T16:09:40+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001954s ]
+
+[ 2016-01-09T16:10:11+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+
+[ 2016-01-09T16:10:12+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002711s ]
+
+[ 2016-01-09T16:10:12+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+
+[ 2016-01-09T16:10:12+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001955s ]
+
+[ 2016-01-09T16:10:13+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002043s ]
+
+[ 2016-01-09T16:10:39+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+
+[ 2016-01-09T16:10:39+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+
+[ 2016-01-09T16:10:40+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002171s ]
+
+[ 2016-01-09T16:10:40+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004058s ]
+
+[ 2016-01-09T16:10:41+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+
+[ 2016-01-09T16:10:42+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002240s ]
+
+[ 2016-01-09T16:13:01+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001869s ]
+
+[ 2016-01-09T16:13:39+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+
+[ 2016-01-09T16:16:12+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001923s ]
+
+[ 2016-01-09T16:16:12+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000304s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002206s ]
+
+[ 2016-01-09T16:17:24+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+
+[ 2016-01-09T16:17:25+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002787s ]
+
+[ 2016-01-09T16:17:50+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001593s ]
+
+[ 2016-01-09T16:17:53+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002130s ]
+
+[ 2016-01-09T16:17:59+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001685s ]
+
+[ 2016-01-09T16:18:09+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002099s ]
+
+[ 2016-01-09T16:19:47+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001846s ]
+
+[ 2016-01-09T16:19:52+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+
+[ 2016-01-09T16:19:58+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002033s ]
+
+[ 2016-01-09T16:20:09+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+
+[ 2016-01-09T16:20:12+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+
+[ 2016-01-09T16:20:20+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000198s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+
+[ 2016-01-09T16:20:39+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002045s ]
+
+[ 2016-01-09T16:20:41+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001827s ]
+
+[ 2016-01-09T16:20:41+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2016-01-09T16:20:41+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001951s ]
+
+[ 2016-01-09T16:20:42+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2016-01-09T16:20:42+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000196s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2016-01-09T16:20:42+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2016-01-09T16:20:42+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001850s ]
+
+[ 2016-01-09T16:20:45+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2016-01-09T16:25:42+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001793s ]
+
+[ 2016-01-09T16:26:02+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+
+[ 2016-01-09T16:26:19+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+
+[ 2016-01-09T16:27:00+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+
+[ 2016-01-09T16:28:51+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002325s ]
+
+[ 2016-01-09T16:29:02+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002039s ]
+
+[ 2016-01-09T16:30:18+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001766s ]
+
+[ 2016-01-09T16:30:23+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+
+[ 2016-01-09T16:30:40+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001657s ]
+
+[ 2016-01-09T16:30:44+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+
+[ 2016-01-09T16:32:14+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+
+[ 2016-01-09T16:32:18+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+
+[ 2016-01-09T16:34:39+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+
+[ 2016-01-09T16:34:57+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000253s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001971s ]
+
+[ 2016-01-09T16:35:02+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+
+[ 2016-01-09T16:35:17+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001965s ]
+
+[ 2016-01-09T16:35:22+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+
+[ 2016-01-09T16:37:51+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001879s ]
+
+[ 2016-01-09T16:38:06+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+
+[ 2016-01-09T16:44:31+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000326s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+
+[ 2016-01-09T16:44:34+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+
+[ 2016-01-09T16:45:33+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+
+[ 2016-01-09T16:54:30+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001893s ]
+
+[ 2016-01-09T16:54:36+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+
+[ 2016-01-09T16:55:00+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+
+[ 2016-01-09T16:55:12+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+
+[ 2016-01-09T16:55:29+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002613s ]
+
+[ 2016-01-09T18:02:47+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000323s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+
+[ 2016-01-09T18:02:51+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+
+[ 2016-01-09T18:04:09+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001617s ]
+
+[ 2016-01-09T18:04:15+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+
+[ 2016-01-09T18:04:36+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001591s ]
+
+[ 2016-01-09T18:04:40+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+
+[ 2016-01-09T18:04:59+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002153s ]
+
+[ 2016-01-09T18:05:04+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+
+[ 2016-01-09T18:09:48+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002021s ]
+
+[ 2016-01-09T18:10:46+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000333s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002624s ]
+
+[ 2016-01-09T18:11:29+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001854s ]
+
+[ 2016-01-09T18:13:04+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001842s ]
+
+[ 2016-01-09T18:13:16+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+
+[ 2016-01-09T18:13:22+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+
+[ 2016-01-09T18:13:48+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000188s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001852s ]
+
+[ 2016-01-09T18:13:52+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+
+[ 2016-01-09T18:14:07+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001745s ]
+
+[ 2016-01-09T18:14:13+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+
+[ 2016-01-09T18:16:36+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000214s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001925s ]
+
+[ 2016-01-09T18:16:41+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000325s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+
+[ 2016-01-09T18:17:01+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001743s ]
+
+[ 2016-01-09T18:17:08+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+
+[ 2016-01-09T18:22:00+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002034s ]
+
+[ 2016-01-09T18:22:10+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000310s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003297s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2016-01-09T18:22:36+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002092s ]
+
+[ 2016-01-09T18:23:49+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001989s ]
+
+[ 2016-01-09T18:23:55+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000324s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002897s ]
+
+[ 2016-01-09T18:24:13+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000340s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002232s ]
+
+[ 2016-01-09T18:25:30+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000191s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2016-01-09T18:25:48+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2016-01-09T18:27:49+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000392s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004436s ]
+
+[ 2016-01-09T18:27:57+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2016-01-09T18:27:57+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000379s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002560s ]
+
+[ 2016-01-09T18:28:40+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001803s ]
+
+[ 2016-01-09T18:29:52+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000428s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003570s ]
+
+[ 2016-01-09T18:30:22+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002033s ]
+
+[ 2016-01-09T18:30:33+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+
+[ 2016-01-09T18:30:44+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:30:47+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:30:48+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:33:23+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001950s ]
+
+[ 2016-01-09T18:33:27+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:33:31+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:33:33+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:33:34+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:34:47+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:34:49+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:34:55+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2016-01-09T18:35:05+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+NOTIC: [8] Undefined variable: _session F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 25 行.
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 19 行.
+
+[ 2016-01-09T18:35:27+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000292s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002549s ]
+
+[ 2016-01-09T18:36:12+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001962s ]
+
+[ 2016-01-09T18:36:15+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000170s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001987s ]
+
+[ 2016-01-09T18:36:37+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+
+[ 2016-01-09T18:38:06+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000237s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003274s ]
+
+[ 2016-01-09T18:44:13+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001906s ]
+
+[ 2016-01-09T18:45:21+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001891s ]
+
+[ 2016-01-09T18:45:58+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001827s ]
+
+[ 2016-01-09T18:46:14+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000171s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+
+[ 2016-01-09T18:47:30+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001831s ]
+
+[ 2016-01-09T18:47:31+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002294s ]
+
+[ 2016-01-09T18:47:52+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+
+[ 2016-01-09T18:47:53+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001779s ]
+
+[ 2016-01-09T18:49:24+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002056s ]
+
+[ 2016-01-09T18:49:25+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001717s ]
+
+[ 2016-01-09T18:49:26+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001950s ]
+
+[ 2016-01-09T18:49:26+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000314s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003888s ]
+
+[ 2016-01-09T18:49:34+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+
+[ 2016-01-09T18:49:55+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001813s ]
+
+[ 2016-01-09T19:00:36+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.061115s ]
+
+[ 2016-01-09T19:03:12+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000189s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002347s ]
+
+[ 2016-01-09T19:03:43+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000211s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001880s ]
+
+[ 2016-01-09T20:07:10+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002167s ]
+
+[ 2016-01-09T20:07:10+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002149s ]
+
+[ 2016-01-09T20:07:10+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000649s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002725s ]
+
+[ 2016-01-09T20:07:10+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001768s ]
+
+[ 2016-01-09T20:07:11+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+
+[ 2016-01-09T20:07:11+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+
+[ 2016-01-09T21:49:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000367s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003223s ]
+
+[ 2016-01-09T21:50:34+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+
+[ 2016-01-09T21:50:45+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 21 行.
+NOTIC: [8] Undefined index: user F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 26 行.
+
+[ 2016-01-09T21:50:48+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000172s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001935s ]
+
+[ 2016-01-09T21:51:18+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000345s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002421s ]
+
+[ 2016-01-09T21:51:27+08:00 ] 127.0.0.1 /index.php/home/index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+NOTIC: [8] A session had already been started - ignoring session_start() F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 21 行.
+NOTIC: [8] Undefined index: user F:\WWW\learn\Apps\Home\Controller\BaseController.class.php 第 26 行.
+NOTIC: [8] Undefined index: remote_addr F:\WWW\learn\Apps\Home\Controller\IndexController.class.php 第 18 行.
+
+[ 2016-01-09T21:51:28+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000186s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+
+[ 2016-01-09T21:52:01+08:00 ] 127.0.0.1 /index.php/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000442s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003413s ]
+

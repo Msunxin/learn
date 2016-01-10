@@ -1,0 +1,18 @@
+[ 2016-01-09T15:58:09+08:00 ] 127.0.0.1 /index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+ERR: 无法加载模块:Index
+
+[ 2016-01-09T16:00:02+08:00 ] 127.0.0.1 /index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002354s ]
+ERR: 无法加载模块:Index
+
+[ 2016-01-09T16:00:31+08:00 ] 127.0.0.1 /index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002168s ]
+ERR: 无法加载模块:Index
+

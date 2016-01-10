@@ -65,11 +65,11 @@
 </div>
 <div class='hidden'>
     <div class="span6 action-login">
-        <form class="form-inline" style="text-align: center" method='post'> 
-                    <fieldset>
-                              <label>账号：</label><input type="text" name='uid' /><br/>
-                              <label>密码：</label><input type="password" name="psw" /><br/>
-                              <button type="submit" class="btn">提交</button>
+        <form class="form-inline" style="text-align: center"> 
+            <fieldset style="padding-top: 50px">
+                              <label>账号：</label><input type="text" name='uid' id="uid" value=""/><br/>
+                              <label>密码：</label><input type="password" name="psw" id="psw" value="" /><br/>
+                              <div class="btn submit">提交</div>
                     </fieldset>
             </form>
     </div>
@@ -88,9 +88,22 @@
                 shadeClose: true, //开启遮罩关闭
                 content: $('.action-login').html()
             });
-           $.post('./index/login',{id:1},function(data){
-               alert(data);
-           });
+            $('.submit').click(function(){
+                var name = $("input[name='uid']:last").val();
+                var psw = $("input[name='psw']:last").val();
+                $.post('./index/login',{'id':name,'psw':psw},function(data){
+                    var datas = JSON.parse(data);
+                    if(datas.code==200){
+                        layer.alert(datas.msg,{icon:6},function(){
+                            location.reload();
+                        });
+                    }else{
+                        layer.alert(datas.msg,{icon:5},function(){
+                            location.reload();
+                        });
+                    }
+                 });
+            })
         });
     })
 </script>
