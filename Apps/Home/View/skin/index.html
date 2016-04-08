@@ -79,8 +79,9 @@
     $(function(){
         $('.btn-success').click(function(){
            //自定页
-            layer.open({
-                area: ['600px', '300px'],
+            pagei = layer.open({
+                title:'登录',
+                area: ['500px', '300px'],
                 type: 1,
                 skin: 'layui-layer-demo', //样式类名
                 closeBtn: 0, //不显示关闭按钮
@@ -95,12 +96,11 @@
                     var datas = JSON.parse(data);
                     if(datas.code==200){
                         layer.alert(datas.msg,{icon:6},function(){
-                            location.reload();
+                            location.href="http://baidu.com";
                         });
                     }else{
-                        layer.alert(datas.msg,{icon:5},function(){
-                            location.reload();
-                        });
+                        layer.alert(datas.msg,{icon:5});
+                        layer.close(pagei);
                     }
                  });
             })
