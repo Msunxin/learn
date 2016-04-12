@@ -11,7 +11,7 @@ class IndexController extends BaseController {
     public function login(){
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
             session_start();
-            $a = BaseController::int('id','sun');
+            $a = BaseController::string('id','sun');
             $b = BaseController::string('psw','111');
             $result = $this->m->check($a, $b);
             if(is_array($result) && !empty($result)){

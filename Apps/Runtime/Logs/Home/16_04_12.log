@@ -2702,3 +2702,444 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 ERR: 无法加载控制器:Apps
 
+[ 2016-04-12T15:23:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:23:48+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:23:50+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= 'sun'   AND `password` = MD5('111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:23:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:23:52+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:25:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:25:00+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:34:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:34:12+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:34:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:34:35+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:34:37+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= 'sun'   AND `password` = MD5('111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:35:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:35:01+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:35:04+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= 'sun'   AND `password` = MD5('111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:35:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:35:14+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:35:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:35:49+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:35:51+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0156s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= 'sun'   AND `password` = MD5('111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:36:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:36:09+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:36:13+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= 'sun'   AND `password` = MD5('111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:36:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:36:33+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:36:34+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= 'sun'   AND `password` = MD5('111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:37:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:37:05+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:37:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:37:34+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:38:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:38:26+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:40:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:40:13+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:40:23+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= '111'   AND `password` = MD5('1111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:40:29+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= '111'   AND `password` = MD5('111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:40:38+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-04-12T15:40:51+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-04-12T15:41:34+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-04-12T15:42:15+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-04-12T15:42:27+08:00 ] 127.0.0.1 /?de=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-04-12T15:42:27+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:42:38+08:00 ] 127.0.0.1 /?de=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:42:46+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-04-12T15:43:09+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-04-12T15:43:15+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= '111'   AND `password` = MD5('111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:43:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-04-12T15:43:26+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:43:34+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= 'sun'   AND `password` = MD5('111') [ RunTime:0.0000s ]
+
+[ 2016-04-12T15:43:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:43:35+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:43:37+08:00 ] 127.0.0.1 /index/exitLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:43:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T15:43:39+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T15:43:45+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined index: user G:\mywww\Apps\Home\Controller\BaseController.class.php 第 39 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 13 行.
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= 'sun'   AND `password` = MD5('1') [ RunTime:0.0000s ]
+
