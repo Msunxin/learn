@@ -5,11 +5,11 @@ return array(
     'APP_DEBUG' => TRUE,
     'DB_TYPE' => 'MYSQL',
     'DB_HOST' => 'localhost',
-    'DB_NAME' => '', // 数据库名
+    'DB_NAME' => 'test', // 数据库名
     'DB_USER' => 'root', // 用户名
     'DB_PWD' => 'root', // 密码
     'DB_PORT' => '3306', // 端口
-    'DB_PREFIX' => '', // 数据库表前缀
+    'DB_PREFIX' => 't_', // 数据库表前缀
     
     //smarty 定界符   
     'TMPL_L_DELIM' => '<!--{', // 模板引擎普通标签开始标记

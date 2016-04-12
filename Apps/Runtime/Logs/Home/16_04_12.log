@@ -1,0 +1,689 @@
+[ 2016-04-12T10:33:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:33:26+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:33:29+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 49 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0468s ]
+
+[ 2016-04-12T10:33:41+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:33:52+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:33:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:33:55+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:33:58+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 49 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+
+[ 2016-04-12T10:34:25+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:34:39+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:34:39+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:34:39+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:34:44+08:00 ] 127.0.0.1 /?de=true
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:34:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-12T10:34:47+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:34:50+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 49 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+
+[ 2016-04-12T10:34:56+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-12T10:34:59+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:36:16+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 49 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0220s ]
+SQL: SELECT id,user,name,is_manger FROM `t_user` WHERE `user`= 'sun'   AND `password` = MD5('111') [ RunTime:0.0010s ]
+
+[ 2016-04-12T10:37:24+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:37:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:39:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:39:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:39:17+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:39:20+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 49 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type G:\mywww\ThinkPHP\Library\Think\Model.class.php 第 543 行.
+SQL: SELECT * FROM `t_user`  [ RunTime:0.0000s ]
+
+[ 2016-04-12T10:39:23+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:39:43+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:42:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:42:52+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:45:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:45:25+08:00 ] 127.0.0.1 /skin/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:45:25+08:00 ] 127.0.0.1 /skin/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:45:26+08:00 ] 127.0.0.1 /skin/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:45:26+08:00 ] 127.0.0.1 /skin/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:45:26+08:00 ] 127.0.0.1 /skin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:45:26+08:00 ] 127.0.0.1 /skin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:46:19+08:00 ] 127.0.0.1 /skin/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:19+08:00 ] 127.0.0.1 /skin/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:19+08:00 ] 127.0.0.1 /skin/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:46:20+08:00 ] 127.0.0.1 /skin/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:21+08:00 ] 127.0.0.1 /skin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:21+08:00 ] 127.0.0.1 /skin/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:21+08:00 ] 127.0.0.1 /skin/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:21+08:00 ] 127.0.0.1 /skin/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:21+08:00 ] 127.0.0.1 /skin/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:21+08:00 ] 127.0.0.1 /skin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:46:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:46:57+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:47:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:47:07+08:00 ] 127.0.0.1 /skin/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:47:07+08:00 ] 127.0.0.1 /skin/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:47:07+08:00 ] 127.0.0.1 /skin/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:47:07+08:00 ] 127.0.0.1 /skin/css/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:47:07+08:00 ] 127.0.0.1 /skin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:47:07+08:00 ] 127.0.0.1 /skin/js/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:47:07+08:00 ] 127.0.0.1 /skin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Skin
+
+[ 2016-04-12T10:48:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 模板不存在:./Apps/Home/View/Index/index.html
+
+[ 2016-04-12T10:51:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+ERR: 模板不存在:./Apps/Home/View/Index/index.html
+
+[ 2016-04-12T10:51:38+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:56:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 模板不存在:./Apps/Home/View/Index/index.html
+
+[ 2016-04-12T10:56:43+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:56:51+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 58 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+
+[ 2016-04-12T10:58:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:58:22+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:58:24+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 58 行.
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2048] Declaration of Home\Model\UserModel::check() should be compatible with Think\Model::check($value, $rule, $type = 'regex') G:\mywww\Apps\Home\Model\UserModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `t_user` [ RunTime:0.0000s ]
+NOTIC: [2] Illegal offset type G:\mywww\ThinkPHP\Library\Think\Model.class.php 第 543 行.
+SQL: SELECT * FROM `t_user`  [ RunTime:0.0000s ]
+
+[ 2016-04-12T10:58:28+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T10:59:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T10:59:33+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T11:00:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:00:00+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T11:01:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:01:14+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T11:13:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:13:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:13:41+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T11:30:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:30:38+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T11:30:41+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Undefined variable: REQUEST_METHOD G:\mywww\Apps\Home\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-04-12T11:30:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:30:57+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+
+[ 2016-04-12T11:30:59+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+NOTIC: [8] Array to string conversion G:\mywww\Apps\Home\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-04-12T11:31:20+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+
+[ 2016-04-12T11:31:22+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+
+[ 2016-04-12T11:31:32+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+
+[ 2016-04-12T11:31:34+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() G:\mywww\Apps\Home\Controller\BaseController.class.php 第 22 行.
+NOTIC: [8] Undefined index: de G:\mywww\Apps\Home\Controller\BaseController.class.php 第 57 行.
+
+[ 2016-04-12T11:44:39+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:44:40+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:44:46+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:45:06+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:45:18+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:46:13+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:46:29+08:00 ] 127.0.0.1 /index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:48:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-12T11:48:42+08:00 ] 127.0.0.1 /Apps/Home/View/skin/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Apps
+

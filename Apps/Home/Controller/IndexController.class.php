@@ -3,24 +3,47 @@ namespace Home\Controller;
 class IndexController extends BaseController {
     public function __construct() {
         parent::__construct();       
-        $this->id = 'sun';
-        $this->psw = '111';
+        $this->m = new \Home\Model\UserModel();
     }
     public function index(){    
-        $this->assign('skinpath',$this->skinpath);
-        $this->display('skin:index');
+        $this->_setupValue('skin:index');
     }
     public function login(){
-        $a = BaseController::int('id');
-        $b = BaseController::int('psw');
-        if($a == $this->id && $b == $this->psw){
-            $res = array('code'=>200,'msg'=>'登录成功','id'=>$a,'time'=>time(),'ip'=>$_SERVER['REMOTE_ADDR']);
-            $_SESSION['user'] = array('code'=>200,'msg'=>'登录成功','id'=>$a,'time'=>time(),'ip'=>$_SERVER['remote_addr']);
-            echo json_encode($res);
-        }else{
-            $res = array('code'=>500,'msg'=>'登录失败');
-            echo json_encode($res);
+        if($_SERVER['REQUEST_METHOD'] != 'POST'){
+             session_start();
+            $a = BaseController::int('id','sun');
+            $b = BaseController::string('psw','111');
+            $result = $this->m->check($a, $b);
+            if(is_array($result)){
+                $_SESSION['user'] = $result; 
+                $res = array('code'=>200,'msg'=>'登录成功');
+                echo json_encode($res);   die;
+            }else{
+                $res = array('code'=>500,'msg'=>'登录失败');
+                echo json_encode($res); die;
+            }  
         }
-        die;
+        $res = array('code'=>500,'msg'=>'登录方式错误');
+        echo json_encode($res); die;
+        
+    }
+    
+    /**
+     * 注册用户
+     */
+    public function addUser(){
+         if($_SERVER['REQUEST_METHOD'] == 'POST'){
+            $params = $this->_getUser();
+            $result = $this->m->insertUser($params);
+         }
+    }
+    
+    private function _getUser(){
+        return array(
+            'user' => BaseController::string('user'),
+            'name' => BaseController::string('name'),
+            'password' => BaseController::string('password'),
+            'is_manger' => BaseController::int('is_manger'),
+        );
     }
 }
