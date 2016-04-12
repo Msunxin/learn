@@ -92,8 +92,16 @@ class BaseController extends Controller {
         $this->assign('skinpath',$this->skinpath);
         if($tem){
             $this->display($tem);
-        }
-        
+        } 
     }
+    
+    public function showMessage($message='ok',$url='/'){
+        ob_end_clean();
+        header('Content-Type:text/html;charset=utf-8');
+        $script = sprintf('<script>alert("%s");window.location.href="%s";</script>', $message, $url) ;
+        echo $script;
+        die();
+    }
+    
 }
 

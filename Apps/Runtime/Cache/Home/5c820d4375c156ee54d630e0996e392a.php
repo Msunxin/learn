@@ -4,28 +4,32 @@
 <title>首页</title>
 <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap.css">
 <link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="<?php echo ($skinpath); ?>skin/css/style.css">
 <script src="<?php echo ($skinpath); ?>skin/js/jquery.min.js"></script>
 <script src="<?php echo ($skinpath); ?>skin/js/layer/layer.js"></script>
 <script src="<?php echo ($skinpath); ?>skin/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="header" style="padding-bottom:1cm">
-				<ul class="nav nav-pills pull-right">
-					<li class="active ">
-						<a href="#">主页</a>
-					</li>
-					<li>
-						<a href="#">关于</a>
-					</li>
-					<li>
-						<a href="#">联系我们</a>
-					</li>
-				</ul>
-				<h3 class="text-muted" style='text-indent: 5%'>
-					只是测试
-				</h3>
-</div>
-<div id="LG" class="container-fluid">
+    <div class='header-default'>
+        <div class="header header-bg">
+                                    <ul class="nav nav-pills pull-right">
+                                            <li class="active ">
+                                                    <a href="#">主页</a>
+                                            </li>
+                                            <li>
+                                                    <a href="#">关于</a>
+                                            </li>
+                                            <li>
+                                                    <a href="#">联系我们</a>
+                                            </li>
+                                    </ul>
+                                    <h3 class="text-muted" style='text-indent: 5%'>
+                                            只是测试
+                                    </h3>
+                                    <?php  if($user[0]['name']){ echo "<div class=\"login\"><em class='login-text'>当前用户：</em><span class='login-name'>{$user[0]['name']}</span><a href='./index/exitLogin' class='login-exit'>退出</a></div>"; } ?>
+        </div>
+    </div>
+<div id="LG" class="container-fluid content-box">
 	<div class="row-fluid">
 		<div class="span12">			
 			<div class="jumbotron well">
@@ -55,13 +59,13 @@
 </div>
 <div class='hidden'>
     <div class="span6 action-login">
-        <form class="form-inline" style="text-align: center"> 
+        <div class="form-inline" style="text-align: center"> 
             <fieldset style="padding-top: 50px">
                               <label>账号：</label><input type="text" name='uid' id="uid" value=""/><br/>
                               <label>密码：</label><input type="password" name="psw" id="psw" value="" /><br/>
-                              <div class="btn submit">提交</div>
+                              <button class="btn submit">提交</button>
                     </fieldset>
-            </form>
+            </div>
     </div>
 </div>
 <div class="row-fluid">
@@ -90,17 +94,16 @@
             $('.submit').click(function(){
                 var name = $("input[name='uid']:last").val();
                 var psw = $("input[name='psw']:last").val();
-                $.post('./index/login',{'id':name,'psw':psw},function(data){
-                    var datas = JSON.parse(data);
+                $.post('./index/login',{'id':name,'psw':psw},function(datas){
                     if(datas.code==200){
                         layer.alert(datas.msg,{icon:6},function(){
-                            location.href="http://baidu.com";
+                            window.location.reload();
                         });
                     }else{
                         layer.alert(datas.msg,{icon:5});
                         layer.close(pagei);
                     }
-                 });
+                 },'json');
             })
         });
     })
