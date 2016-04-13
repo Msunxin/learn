@@ -10,7 +10,7 @@
         <div class="header header-bg">
                                     <ul class="nav nav-pills pull-right">
                                             <li class="active ">
-                                                    <a href="#">主页</a>
+                                                    <a href="http://learn.cn">主页</a>
                                             </li>
                                             <li>
                                                     <a href="#">关于</a>
@@ -25,6 +25,8 @@
                                     <?php 
                                         if($user[0]['name']){
                                             echo "<div class=\"login\"><em class='login-text'>当前用户：</em><span class='login-name'>{$user[0]['name']}</span><a href='./index/exitLogin' class='login-exit'>退出</a></div>";
+                                        }else{
+                                            echo "<div class='login'><a href='../index/register'>注册</a></div>";
                                         } 
                                     ?>
         </div>

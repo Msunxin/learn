@@ -22,10 +22,16 @@ class UserModel extends BaseModel{
     }
     
     public function insertUser($params){
-        if(is_array($params)){
+        if(!is_array($params)){
             return false;
         }
-        $this->sql = "INSERT INTO `t_user` (`user`,`name`,`password`,`is_manger`) VALUES ({$params['user']},{$params['name']},{$params['password']},{$params['is_manger']})";
+        $this->sql = "INSERT INTO `t_user` (`user`,`name`,`password`,`is_manger`) VALUES ('{$params['user']}','{$params['name']}',MD5('{$params['password']}'),'{$params['is_manger']}')";
         return $this->result = $this->execute($this->sql);
+    }
+    
+    public function checkUser($user){
+        if(!$user) return false;
+        $this->sql = "SELECT id FROM  `t_user` WHERE USER = '{$user}'";
+        return $this->result = $this->query($this->sql);
     }
 }

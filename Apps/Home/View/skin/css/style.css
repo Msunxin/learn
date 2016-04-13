@@ -17,6 +17,8 @@ th, td /* table elements 表格元素 */ {
   margin: 0;
   padding: 0;
 }
+
+/*头标签*/
 .header-default {
     background-color: #cccccc;
     top:0px;
@@ -43,4 +45,24 @@ th, td /* table elements 表格元素 */ {
 
 .content-box {
     margin-top:10px;
+}
+
+/*注册页面*/
+.regpage{
+    position:relative; top:10px; left: 40%;
+}
+.regpage .label-val{
+    display: block; margin-top: 15px;
+}
+.regpage .label-val input{
+    height:25px;width:150px;border: 1px solid #e1e1e1;
+}
+.regpage .lable-lable{
+    float: left;width: 4%
+}
+.regpage .buttion-out{
+    position: relative;left: 80px;padding-top:5px;
+}
+.regpage .button-sub{
+    padding: 2px 6px;border: 0 none; background: #3300ff none repeat scroll 0 0;color: white;
 }

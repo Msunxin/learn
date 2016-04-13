@@ -31,11 +31,17 @@ class IndexController extends BaseController {
     /**
      * 注册用户
      */
-    public function addUser(){
+    public function register(){
          if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $params = $this->_getUser();
             $result = $this->m->insertUser($params);
+            if($result){
+                $this->showMessage('注册成功','../');
+            }else{
+                $this->showMessage('注册失败','../');
+            }
          }
+          $this->_setupValue('skin:index.register');
     }
     
     private function _getUser(){
@@ -43,8 +49,20 @@ class IndexController extends BaseController {
             'user' => BaseController::string('user'),
             'name' => BaseController::string('name'),
             'password' => BaseController::string('password'),
-            'is_manger' => BaseController::int('is_manger'),
+            'is_manger' => 0, //BaseController::int('is_manger'),
         );
+    }
+    
+    public function checkuser(){
+        if($_SERVER['REQUEST_METHOD']== 'POST'){
+            $user = BaseController::string('user');
+            $data = $this->m->checkUser($user);
+            if(empty($data)){
+                echo json_encode(['code'=>200,'msg'=>'可以注册']);die;
+            }else{
+                echo json_encode(['code'=>500,'msg'=>'已经被注册']);die;
+            }
+        }
     }
     public function exitLogin(){
         session_start();
