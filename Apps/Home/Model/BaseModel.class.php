@@ -37,7 +37,7 @@ class BaseModel extends Model{
     private function _dsql(){
         $this->sql && $re['sql'] = $this->sql;
         $this->result && $re['result'] = $this->result;
-        if($this->sql || $this->result) $this->_write($re);
+        if($this->sql || $this->result) $this->_write(serialize($re));
     }
     public static function _write($result){
         if(file_exists('e://ss.sql')){

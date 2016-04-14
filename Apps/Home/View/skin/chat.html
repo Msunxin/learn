@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>联系</title>
+<include file="skin/inc/header" />
+<div class="chat-cont">
+    <div class="chat-cont tourist">
+        <h3>222：</h3>
+        <ul>
+            <li>12</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </div>
+    <div class="chat-text-area">
+       <div id="screen-talk">
+           <textarea class="chat-area" name="talking" readonly></textarea>
+       </div>
+        <div class="chat-area-sub">
+            <textarea name='talk' class="areas"></textarea>
+            <button class="chat-sub">发言</button>
+        </div>
+    </div>
+</div>
+<include file="skin/inc/footer" />
+<script>
+    window.onload=function(){
+        $('.chat-sub').on('click',function(){
+          var value = $('textarea[name=talk]').val(); 
+          var name = $('textarea[name=talking]').val();
+          if(name != ''){
+              $('textarea[name=talking]').text(name+'\n'+value);
+          }else{
+               $('textarea[name=talking]').text(value);
+          }         
+        })
+    }
+    
+    /*window.onunload = function(){
+        $.post('./chat/ajax_close',function(){
+            
+        },'json');
+    };*/
+</script>
+</body>
+</html>

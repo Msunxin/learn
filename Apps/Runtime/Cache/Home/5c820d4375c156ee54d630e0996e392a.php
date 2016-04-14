@@ -13,14 +13,17 @@
     <div class='header-default'>
         <div class="header header-bg">
                                     <ul class="nav nav-pills pull-right">
-                                            <li class="active ">
+                                            <li <?php if($_SERVER['REQUEST_URI'] == '/'){ echo "class='active'"; } ?> >
                                                     <a href="http://learn.cn">主页</a>
                                             </li>
                                             <li>
                                                     <a href="#">关于</a>
                                             </li>
+                                            <li <?php if(stripos($_SERVER['REQUEST_URI'],'chat') !== false){ echo "class='active'"; } ?>>
+                                                    <a href="http://learn.cn/chat">联系我们</a>
+                                            </li>
                                             <li>
-                                                    <a href="#">联系我们</a>
+                                                    <a href="http://learn.cn/?de=true"  target="_blank">debug</a>
                                             </li>
                                     </ul>
                                     <h3 class="text-muted" style='text-indent: 5%'>
@@ -68,7 +71,7 @@
         </div>
     </div>
 </div>
-<div class="row-fluid">
+<div class="row-fluid" style="position: fixed;bottom:10px;right: 5px;">
 		<div class="span12">
 			<blockquote class="pull-right">
 				<p>
