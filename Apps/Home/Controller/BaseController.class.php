@@ -79,7 +79,8 @@ class BaseController extends Controller {
      
      private function _read(){
         $file = file_get_contents('e://ss.sql');
-        var_dump($file);die;
+        echo "<pre>";
+        var_dump(unserialize($file));die;
     }
     
     /**
