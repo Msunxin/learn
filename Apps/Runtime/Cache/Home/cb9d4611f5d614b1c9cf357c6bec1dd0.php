@@ -42,11 +42,13 @@
         </ul>
     </div>
     <div class="chat-text-area">
-       <div id="screen-talk">
-           <textarea class="chat-area" name="talking" readonly></textarea>
+       <div>
+           <ul id="screen-talk" style="height: 700px;background-color:#ccffff;">
+                <li style="float:none;clear:both;padding-left: 10px;">12</li>
+            </ul>
        </div>
         <div class="chat-area-sub">
-            <textarea name='talk' class="areas"></textarea>
+            <textarea name='talk' class="areas" wrap="hard"></textarea>
             <button class="chat-sub">发言</button>
         </div>
     </div>
@@ -62,14 +64,25 @@
 </div>
 <script>
     window.onload=function(){
+        var user = "<?php echo ($user["0"]["user"]); ?>";
         $('.chat-sub').on('click',function(){
-          var value = $('textarea[name=talk]').val(); 
-          var name = $('textarea[name=talking]').val();
-          if(name != ''){
-              $('textarea[name=talking]').text(name+'\n'+value);
-          }else{
-               $('textarea[name=talking]').text(value);
-          }         
+            var value = $('textarea[name=talk]').val(); 
+            if(value.length==0 || value.length>=50){
+                layer.alert('长度不能超过50');
+                return;
+            }
+            if(user == ''){
+                layer.alert('登录后再来',function(){
+                   window.location.href="http://learn.cn";
+                    return;
+                });
+                return;
+            }
+            $('.chat-sub').attr('disabled',true);
+            $('.chat-sub').css('background-color','#cccccc');
+            setTimeout("$('.chat-sub').attr('disabled',false)",2000);
+            setTimeout("$('.chat-sub').css('background-color','green')",2000);  
+            $('#screen-talk li').last('').after("<li style='float:right;clear:both;padding-right:10px;margin-top:3px;word-wrap:break-word;'>"+user+'(2):'+value+"</li>");    
         })
     }
     
