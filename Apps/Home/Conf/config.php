@@ -18,10 +18,10 @@ return array(
     //trance 信息
     'SHOW_PAGE_TRACE'=>1,
     'SHOW_ADV_TIME' => true, // 是否显示详细的运行时间
-    'SHOW_DB_TIMES' => true, // 显示数据库查询和写入次数
-    'SHOW_CACHE_TIMES' => true, // 显示缓存操作次数
-    'SHOW_USE_MEM' => true, // 显示内存开销
-    'SHOW_LOAD_FILE' => true, // 显示加载文件数
-    'SHOW_FUN_TIMES' => true, // 显示函数调用次数
+    'SHOW_DB_TIMES' => false, // 显示数据库查询和写入次数
+    'SHOW_CACHE_TIMES' => false, // 显示缓存操作次数
+    'SHOW_USE_MEM' => false, // 显示内存开销
+    'SHOW_LOAD_FILE' => false, // 显示加载文件数
+    'SHOW_FUN_TIMES' => false, // 显示函数调用次数
      
 );

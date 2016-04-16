@@ -14,16 +14,19 @@
         <div class="header header-bg">
                                     <ul class="nav nav-pills pull-right">
                                             <li <?php if($_SERVER['REQUEST_URI'] == '/'){ echo "class='active'"; } ?> >
-                                                    <a href="http://learn.cn">主页</a>
+                                                    <a href="http://<?php echo ($url); ?>">主页</a>
                                             </li>
                                             <li>
                                                     <a href="#">关于</a>
                                             </li>
                                             <li <?php if(stripos($_SERVER['REQUEST_URI'],'chat') !== false){ echo "class='active'"; } ?>>
-                                                    <a href="http://learn.cn/chat">联系我们</a>
+                                                    <a href="http://<?php echo ($url); ?>/chat">联系我们</a>
+                                            </li>
+                                            <li <?php if(stripos($_SERVER['REQUEST_URI'],'observer') !== false){ echo "class='active'"; } ?>>
+                                                    <a href="http://<?php echo ($url); ?>/observer">观察者</a>
                                             </li>
                                             <li>
-                                                    <a href="http://learn.cn/?de=true"  target="_blank">debug</a>
+                                                <a href="http://<?php echo ($url); ?>?de=true"  target="_blank">debug</a>
                                             </li>
                                     </ul>
                                     <h3 class="text-muted" style='text-indent: 5%'>

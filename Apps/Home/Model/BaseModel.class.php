@@ -40,9 +40,9 @@ class BaseModel extends Model{
         if($this->sql || $this->result) $this->_write(serialize($re));
     }
     public static function _write($result){
-        if(file_exists('e://ss.sql')){
-            unlink('e://ss.sql');
+        if(file_exists('f://cache/ss.sql')){
+            unlink('f://cache/ss.sql');
         }
-        file_put_contents('e://ss.sql', $result);
+        file_put_contents('f://cache/ss.sql', $result);
     }
 }

@@ -17,6 +17,8 @@ class BaseController extends Controller {
     public $id;
     public $user;
     public $skinpath;
+    protected $url;
+    
     public function __construct(){
         parent::__construct();
         session_start();
@@ -39,6 +41,7 @@ class BaseController extends Controller {
             $this->user = $_SESSION['user'];
         }
         $this->skinpath = '/Apps/Home/View/';
+        $this->url = $_SERVER['HTTP_HOST'];
     }
         
     public STATIC function int($name,$default=null){
@@ -78,7 +81,7 @@ class BaseController extends Controller {
      } 
      
      private function _read(){
-        $file = file_get_contents('e://ss.sql');
+        $file = file_get_contents('f://cache/ss.sql');
         echo "<pre>";
         var_dump(unserialize($file));die;
     }
@@ -91,6 +94,7 @@ class BaseController extends Controller {
     protected function _setupValue($tem){
         $this->user && $this->assign('user',$this->user);
         $this->assign('skinpath',$this->skinpath);
+        $this->assign('url',$this->url);
         if($tem){
             $this->display($tem);
         } 
