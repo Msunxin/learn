@@ -22,6 +22,9 @@
                                             <li <?php if(stripos($_SERVER['REQUEST_URI'],'chat') !== false){ echo "class='active'"; } ?>>
                                                     <a href="http://<?php echo ($url); ?>/chat">联系我们</a>
                                             </li>
+                                            <li <?php if(stripos($_SERVER['REQUEST_URI'],'observer') !== false){ echo "class='active'"; } ?>>
+                                                    <a href="http://<?php echo ($url); ?>/observer">观察者</a>
+                                            </li>
                                             <li>
                                                 <a href="http://<?php echo ($url); ?>?de=true"  target="_blank">debug</a>
                                             </li>
@@ -98,18 +101,29 @@
         
     }
     function before(type,value){
-            var have = $("input[name="+type+"]").next('span').length
+            var have = $("input[name="+type+"]").next('span').length;
             $.post('./checkuser',{user:value},function(data){
                 if(data.code == 200){
-                    have==0 ? $("input[name="+type+"]").after("<span style=\"display:inline;color:green;margin-left: 10px;\">*"+data.msg+"</span>") : $("input[name="+type+"]").next('span').css('block','inline');  
-                    ress = true;    //可以注册
+                    if(have == 0){
+                        $("input[name="+type+"]").after("<span style=\"display:inline;color:green;margin-left: 10px;\">*"+data.msg+"</span>")
+                    }else{
+                        $("input[name="+type+"]").next('span').remove();  
+                        $("input[name="+type+"]").after("<span style=\"display:inline;color:green;margin-left: 10px;\">*"+data.msg+"</span>")
+                    }
+                    var ress = true;    //可以注册
+                    return ress;
                 }else{
-                    have==0 ? $("input[name="+type+"]").after("<span style=\"display:inline;color:red;margin-left: 10px;\">*"+data.msg+"</span>"): $("input[name="+type+"]").next('span').css('block','inline'); 
+                    if(have == 0){
+                        $("input[name="+type+"]").after("<span style=\"display:inline;color:red;margin-left: 10px;\">*"+data.msg+"</span>");
+                    }else{
+                        $("input[name="+type+"]").next('span').remove();  
+                        $("input[name="+type+"]").after("<span style=\"display:inline;color:red;margin-left: 10px;\">*"+data.msg+"</span>");
+                    }
                     $(".button-sub").attr('disabled',true);
                     ress = false; //已经此用户
+                    return ress;
                 }
             },'json');
-            return ress;
         }
 </script>
 </body>
