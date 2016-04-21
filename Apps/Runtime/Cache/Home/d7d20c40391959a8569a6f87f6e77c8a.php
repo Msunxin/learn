@@ -13,20 +13,14 @@
     <div class='header-default'>
         <div class="header header-bg">
                                     <ul class="nav nav-pills pull-right">
-                                            <li <?php if($_SERVER['REQUEST_URI'] == '/'){ echo "class='active'"; } ?> >
-                                                    <a href="http://<?php echo ($url); ?>">主页</a>
+                                            <li class="active ">
+                                                    <a href="#">主页</a>
                                             </li>
                                             <li>
                                                     <a href="#">关于</a>
                                             </li>
-                                            <li <?php if(stripos($_SERVER['REQUEST_URI'],'chat') !== false){ echo "class='active'"; } ?>>
-                                                    <a href="http://<?php echo ($url); ?>/chat">联系我们</a>
-                                            </li>
-                                            <li <?php if(stripos($_SERVER['REQUEST_URI'],'observer') !== false){ echo "class='active'"; } ?>>
-                                                    <a href="http://<?php echo ($url); ?>/observer">观察者</a>
-                                            </li>
                                             <li>
-                                                <a href="http://<?php echo ($url); ?>?de=true"  target="_blank">debug</a>
+                                                    <a href="#">联系我们</a>
                                             </li>
                                     </ul>
                                     <h3 class="text-muted" style='text-indent: 5%'>
@@ -67,19 +61,19 @@
     <div class="span6 action-login">
         <div class="form-inline" style="text-align: center"> 
             <fieldset style="padding-top: 50px">
-                <label>账号：</label><input type="text" name='uid' id="uid" value=""/><span style='display:none;color:red;'>*账户不能为空</span><br/>
+                <label>账号：</label><input type="text" name='uid' id="uid" value=""/><span style='display:none;color:red'>*账户不能为空</span><br/>
                 <label>密码：</label><input type="password" name="psw" id="psw" value=""/><span style='display:none;color:red'>*密码不能为空</span><br/>
                 <button class="btn submit">提交</button>
             </fieldset>
         </div>
     </div>
 </div>
-<div class="row-fluid" style="position: fixed;bottom:10px;right: 5px;">
+<div class="row-fluid">
 		<div class="span12">
 			<blockquote class="pull-right">
 				<p>
-					这是随便玩玩的
-				</p>
+					github是一个全球化的开源社区.
+				</p> <small>关键词 <cite>开源</cite></small>
 			</blockquote>
 		</div>
 </div>

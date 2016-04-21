@@ -14,22 +14,39 @@
 namespace Home\Controller;
 use Think\Controller;
 class BaseController extends Controller {
+    public $id;
     public $user;
     public $skinpath;
+    protected $url;
+    
     public function __construct(){
         parent::__construct();
         session_start();
-        $this->_init();
-        $this->skinpath = '/Apps/Home/View/';
-    }
-    protected function _init(){
-        $this->user = $_SESSION['user'];
-        $this->assign('skinpath',$this->skinpath);
+        $this->_init(); 
     }
     
+    public function __destruct() {
+        parent::__destruct();
+        $this->_setupValue();
+    }
+    
+    /**
+     * 初始化一些属性值
+     */
+    protected function _init(){
+        if(self::string('de') == 'true'){
+            $this->_read();
+        }
+        if(!($this->user)){
+            $this->user = $_SESSION['user'];
+        }
+        $this->skinpath = '/Apps/Home/View/';
+        $this->url = $_SERVER['HTTP_HOST'];
+    }
+        
     public STATIC function int($name,$default=null){
         $name = $_REQUEST[$name];
-        if(!isset($name)){
+        if(empty($name)){
             return $default;
         }
         if(is_int($name)){
@@ -41,7 +58,7 @@ class BaseController extends Controller {
      
      public static function string($name,$default=null){
          $name = $_REQUEST[$name];
-         if(!isset($name)){
+         if(empty($name)){
             return $default;
         }
          if(is_string($name)){
@@ -53,7 +70,7 @@ class BaseController extends Controller {
      
      public static function arrays($name,$default=null){ 
          $name = $_REQUEST[$name];    
-         if(!isset($name)){
+         if(empty($name)){
             return $default;
         }
         if(is_array($name)){
@@ -62,5 +79,39 @@ class BaseController extends Controller {
             return (array)$name;
         }
      } 
+     
+     private function _read(){
+        $file = file_get_contents('f://cache/ss.sql');
+        echo "<pre>";
+        var_dump(unserialize($file));die;
+    }
+    
+    /**
+     * $tem 默认的模板位置
+     * 展示到页面的值
+     * @param type $tem
+     */
+    protected function _setupValue($tem){
+        $this->user && $this->assign('user',$this->user);
+        $this->assign('skinpath',$this->skinpath);
+        $this->assign('url',$this->url);
+        if($tem){
+            $this->display($tem);
+        } 
+    }
+    
+    /**
+     * 公共弹出窗
+     * @param type $message
+     * @param type $url
+     */
+    public function showMessage($message='ok',$url='/'){
+        ob_end_clean();
+        header('Content-Type:text/html;charset=utf-8');
+        $script = sprintf('<script>alert("%s");window.location.href="%s";</script>', $message, $url) ;
+        echo $script;
+        die();
+    }
+    
 }
 

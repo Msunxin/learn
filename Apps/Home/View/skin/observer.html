@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+            .ob-content {width: 70%;height:auto;margin-left:auto;margin-right:auto;}
+            .ob-center {margin-left:auto;margin-right:auto;}
+            .ob-hobby {background-color:pink;width:100px;height:100px;margin-top: 20px;}
+            .ob-ad {color:red;width:200px;height:200px;margin-top: 20px; border-style:dotted}
+            
+        </style>
+        <title>observer</title>
+        <include file="skin/inc/header" />
+        <div class='ob-content'>
+            <div class='ob-center'>
+                <select name='select' onchange="trigger(this.value)">
+                    <option value='male'>男</option>
+                    <option value='female'>女</option>
+                </select>
+            </div>
+            <div>
+                <div id="hobby" class='ob-hobby' ><span>这是爱好</span></div>
+                <div id="ad" class='ob-ad'><span>这是广告</span></div>
+                <div></div>
+            </div>
+        </div>
+        <include file="skin/inc/footer" />
+        <script>
+                var observer = {};//观察者
+                function trigger(value){        //外部统一访问
+                    for(var key in observer){
+                        observer[key].update(value);
+                    }
+                }
+                
+                //注册观察者
+                function attch(key,value){
+                    observer[key] =value;
+                }
+                
+                //删除观察者
+                function dettch(key){
+                    delete observer[key];
+                }
+                
+               //观察者要实现的修改
+                var hobby = document.getElementById('hobby');
+                hobby.update = function(value){
+                    if(value == 'male'){
+                        $('#hobby').css('background-color','red');
+                    }else if(value =='female'){
+                        $('#hobby').css('background-color','pink');
+                    }
+                }
+                var ad = document.getElementById('ad');
+                ad.update = function(value){
+                    if(value == 'male'){
+                        $('#ad').css('color','red');
+                    }else if(value =='female'){
+                        $('#ad').css('color','pink');
+                    }
+                }
+                
+                //测试注册观察者
+                attch('hobby',hobby);
+                attch('ad',ad);
+        </script>
+    </body>
+</html>

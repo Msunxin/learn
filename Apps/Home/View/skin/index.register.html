@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>注册</title>
+<include file="skin/inc/header" />
+<div>
+       <form class="regpage" action="./register" method="POST">
+           <div  class="label-val"><span class="lable-lable">用户名：</span> <input type="text" placeholder="请输入用户名" name="user" onblur="check(this.name,this.value)"></div>
+           <div  class="label-val"><span class="lable-lable">真实姓名：</span> <input type="text" placeholder="请输入真实姓名" name="name" onblur="check(this.name,this.value)"></div>
+           <div  class="label-val"><span class="lable-lable">密码：</span> <input type="password" placeholder="请输入密码" name="password" onblur="check(this.name,this.value)"></div>
+           <div  class="label-val"><span class="lable-lable">确认密码：</span> <input type="password" placeholder="请确认密码" name="repeat" onblur="check(this.name,this.value)"></div>
+           <div class="buttion-out"> <button class="button-sub">提交</button></div>
+       </form>
+   </div>
+<include file="skin/inc/footer" />
+<script>
+    $(function(){
+        $('.button-sub').on('click',function(){
+           var user = $("input[name=user]").val();
+           var name = $("input[name=name]").val();
+           var password = $("input[name=password]").val();
+           var repeat = $("input[name=repeat]").val();
+           if(user == '' || name =="" || password == '' || repeat!=password){
+               return false;
+           }
+           var res = before('user',user);
+           if(!res){
+               return false;
+           }
+        });
+    });
+    function check(type,value){
+        switch(type){
+            case 'user' : error="用户名不能为空";break;
+            case 'name' : error="真实姓名不能为空";break;
+            case 'password' : error="密码不能为空";break;
+            case 'repeat' : error="两次密码不一致";break;
+        }
+        var have = $("input[name="+type+"]").next('span').length
+        if(type == 'repeat'){
+            var pass = $("input[name=password]").val();
+            if(value != pass){
+                have==0 ? $("input[name="+type+"]").after("<span style=\"display:inline;color:red;margin-left: 10px;\">*"+error+"</span>") : $("input[name="+type+"]").next('span').css('display','inline');
+                $(".button-sub").attr('disabled',true);return;
+            }else{
+                $("input[name="+type+"]").next('span').css('display','none');
+                $(".button-sub").attr('disabled',false);
+            }
+        }else{
+            if(value == ''){         
+                have==0 ? $("input[name="+type+"]").after("<span style=\"display:inline;color:red;margin-left: 10px;\">*"+error+"</span>") : $("input[name="+type+"]").next('span').css('display','inline');
+                $(".button-sub").attr('disabled',true);return;
+            }else{
+                $("input[name="+type+"]").next('span').css('display','none');
+                $(".button-sub").attr('disabled',false);
+            }  
+        }
+        if(type == 'user' && value != ''){
+            before(type,value);
+        }
+        
+    }
+    function before(type,value){
+            var have = $("input[name="+type+"]").next('span').length;
+            $.post('./checkuser',{user:value},function(data){
+                if(data.code == 200){
+                    if(have == 0){
+                        $("input[name="+type+"]").after("<span style=\"display:inline;color:green;margin-left: 10px;\">*"+data.msg+"</span>")
+                    }else{
+                        $("input[name="+type+"]").next('span').remove();  
+                        $("input[name="+type+"]").after("<span style=\"display:inline;color:green;margin-left: 10px;\">*"+data.msg+"</span>")
+                    }
+                    var ress = true;    //可以注册
+                    return ress;
+                }else{
+                    if(have == 0){
+                        $("input[name="+type+"]").after("<span style=\"display:inline;color:red;margin-left: 10px;\">*"+data.msg+"</span>");
+                    }else{
+                        $("input[name="+type+"]").next('span').remove();  
+                        $("input[name="+type+"]").after("<span style=\"display:inline;color:red;margin-left: 10px;\">*"+data.msg+"</span>");
+                    }
+                    $(".button-sub").attr('disabled',true);
+                    ress = false; //已经此用户
+                    return ress;
+                }
+            },'json');
+        }
+</script>
+</body>
+</html>
