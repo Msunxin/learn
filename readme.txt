@@ -1,7 +1,7 @@
 本项目测试使用
 ---
 
-[![Build Status](https://api.travis-ci.org/swoole/swoole-src.svg)](https://travis-ci.org/swoole/swoole-src)
+[![Build Status](https://travis-ci.org/Msunxin/learn.svg?branch=master)](https://travis-ci.org/Msunxin/learn.svg?branch=master)
 
 
 /*1111*/
